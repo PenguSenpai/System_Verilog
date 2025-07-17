@@ -1,0 +1,12 @@
+Time resolution is 1 ps
+Value of Data : 189
+Value of Data : 61
+Value of Data : 53
+Value of Data : 164
+Value of Data : 110
+Value of Data : 63
+Value of Data : 205
+Value of Data : 211
+Value of Data : 23
+Value of Data : 9
+$finish called at time : 200 ns : File "C:/Users/Gavin/OneDrive/Desktop/System Verilog/Test/Getting_Started/Getting_Started.srcs/sim_1/new/testbench.sv" Line 61

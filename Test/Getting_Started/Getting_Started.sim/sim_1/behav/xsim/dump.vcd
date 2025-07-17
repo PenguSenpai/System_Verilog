@@ -1,0 +1,67 @@
+$date
+   Wed Jul 16 18:38:55 2025
+$end
+
+$version
+  2023.2
+  $dumpfile ("dump.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module testbench $end
+$var reg 32 ! t $end
+$var reg 8 " data [7:0] $end
+$scope begin Block47_1 $end
+$var reg 32 # i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+b100001111000010000000000111000 !
+b10111101 "
+b0 #
+$end
+
+#10000
+b111101 "
+b1 #
+
+#20000
+b110101 "
+b10 #
+
+#30000
+b10100100 "
+b11 #
+
+#40000
+b1101110 "
+b100 #
+
+#50000
+b111111 "
+b101 #
+
+#60000
+b11001101 "
+b110 #
+
+#70000
+b11010011 "
+b111 #
+
+#80000
+b10111 "
+b1000 #
+
+#90000
+b1001 "
+b1001 #
+
+#100000
+b1010 #
