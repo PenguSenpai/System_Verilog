@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Aug  7 19:15:42 2025
+# Process ID: 14292
+# Current directory: C:/Users/Gavin/OneDrive/Desktop/System Verilog/Test/Initial_Block
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7408 C:\Users\Gavin\OneDrive\Desktop\System Verilog\Test\Initial_Block\Initial_Block.xpr
+# Log file: C:/Users/Gavin/OneDrive/Desktop/System Verilog/Test/Initial_Block/vivado.log
+# Journal file: C:/Users/Gavin/OneDrive/Desktop/System Verilog/Test/Initial_Block\vivado.jou
+# Running On: DESKTOP-AAP1M4I, OS: Windows, CPU Frequency: 4392 MHz, CPU Physical cores: 24, Host memory: 33408 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Gavin/OneDrive/Desktop/System Verilog/Test/Initial_Block/Initial_Block.xpr}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/Gavin/OneDrive/Desktop/System Verilog/Test/Initial_Block/Initial_Block.srcs/sim_1/new/Initial_Block_in_TestBenches.sv} w ]
+add_files -fileset sim_1 {{C:/Users/Gavin/OneDrive/Desktop/System Verilog/Test/Initial_Block/Initial_Block.srcs/sim_1/new/Initial_Block_in_TestBenches.sv}}
+update_compile_order -fileset sim_1
