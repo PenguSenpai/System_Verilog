@@ -1,0 +1,115 @@
+$date
+   Mon Aug 11 22:27:31 2025
+$end
+
+$version
+  2023.2
+  $dumpfile ("dump.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module test_tb $end
+$var reg 1 ! rst $end
+$var reg 1 " clk $end
+$scope module t $end
+$var wire 1 # probe $end
+$var real 32 $ st $end
+$var real 32 % ed $end
+$var real 32 & dif $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+0"
+0#
+r0 $
+r0 %
+r0 &
+$end
+
+#20000
+1"
+1#
+r20 $
+
+#40000
+0"
+0#
+
+#60000
+1"
+1#
+r60 %
+
+#62000
+r40 &
+
+#80000
+0"
+0#
+
+#100000
+1"
+1#
+
+#120000
+0"
+0#
+
+#140000
+1"
+1#
+
+#160000
+0"
+0#
+
+#180000
+1"
+1#
+
+#200000
+0"
+0#
+
+#220000
+1"
+1#
+
+#240000
+0"
+0#
+
+#260000
+1"
+1#
+
+#280000
+0"
+0#
+
+#300000
+1"
+1#
+
+#320000
+0"
+0#
+
+#340000
+1"
+1#
+
+#360000
+0"
+0#
+
+#380000
+1"
+1#
