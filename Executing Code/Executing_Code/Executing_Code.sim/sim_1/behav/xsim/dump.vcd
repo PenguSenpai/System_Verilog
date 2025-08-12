@@ -1,0 +1,36 @@
+$date
+   Mon Aug 11 18:07:13 2025
+$end
+
+$version
+  2023.2
+  $dumpfile ("dump.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module Understanding_Execution_of_Code $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var reg 4 # temp [3:0] $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+1"
+b0 #
+$end
+
+#30000
+0"
+b101 #
+
+#40000
+b1010 #
+
+#50000
+b1011 #

@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08/07/2025 07:19:34 PM
+// Create Date: 08/11/2025 06:30:33 PM
 // Design Name: 
-// Module Name: Initial_Block_in_TestBenches
+// Module Name: test
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -18,19 +18,18 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
-
-module Initial_Block_in_TestBenches();
-
-    reg a = 0;
-    //initial starts executions at 0ns
-    
-    initial a = 1;  //Single statement intial block
-    
-    initial begin   // Multy statement initial block
-        a = 1;
-            #10;
-        a = 0;
-    end
-        
-endmodule
+class test;
+  bit rst  = 1;
+  int temp = 0;
+  
+  
+  task display();
+    $display("---------------------------");
+    $display("magic_no = %0d", this.temp);
+    $display("---------------------------");
+  endtask
+  
+  task no_gen(input bit rst);
+    this.temp = rst*5*6*2; 
+  endtask
+endclass

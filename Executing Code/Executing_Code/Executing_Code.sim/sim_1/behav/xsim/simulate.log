@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+Temp: 0 at time : 0000000000000000000000t
+Temp: 5 at time : 0000000000000000000036t
+Temp: 10 at time : 0000000000000000000050t
+Temp: 11 at time : 0000000000000000000062t
+$finish called at time : 200 ns : File "C:/Users/Gavin/OneDrive/Desktop/System Verilog/Executing Code/Executing_Code/Executing_Code.srcs/sim_1/new/Understanding_Execution_of_Code.sv" Line 66

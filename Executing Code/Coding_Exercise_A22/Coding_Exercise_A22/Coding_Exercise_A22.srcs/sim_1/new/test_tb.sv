@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 08/07/2025 07:19:34 PM
+// Create Date: 08/11/2025 06:50:10 PM
 // Design Name: 
-// Module Name: Initial_Block_in_TestBenches
+// Module Name: test_tb
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -19,18 +19,28 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
+`include "../../sources_1/new/test.sv"
+module test_tb();
+  
+  reg resetn = 0;   //////rst represent DUT reset Signal
 
-module Initial_Block_in_TestBenches();
-
-    reg a = 0;
-    //initial starts executions at 0ns
-    
-    initial a = 1;  //Single statement intial block
-    
-    initial begin   // Multy statement initial block
-        a = 1;
-            #10;
-        a = 0;
+  /////// User Logic goes here
+  initial begin
+    resetn = 0;
+    #100;
+    resetn = 1;
+    forever begin
+      #50 resetn = ~resetn;
     end
-        
+  end
+  
+  test t1 = new();
+  
+  initial begin
+    #201;
+    t1.no_gen(resetn);
+    t1.display();
+  end
+  
+  
 endmodule
